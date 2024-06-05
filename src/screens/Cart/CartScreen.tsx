@@ -15,20 +15,20 @@ const CartScreen = ({ navigation }: PropsCart) => {
 
 
     const RenderItem = () => {
-      
-     
+
+
 
         return (
             <View style={styles.itemCart}>
                 <View>
-                        <Image source={{ uri:'https://product.hstatic.net/1000084161/product/tui-deo-cheo-nam-lata-tn22-mau-bo-dam__2__0a3f99590bca4b1c9a0f2f6fbfc50967_master.jpg'}} style={{ width: 72, height: 72 }} />
+                    <Image source={{ uri: 'https://product.hstatic.net/1000084161/product/tui-deo-cheo-nam-lata-tn22-mau-bo-dam__2__0a3f99590bca4b1c9a0f2f6fbfc50967_master.jpg' }} style={{ width: 72, height: 72 }} />
                 </View>
                 <View style={{ flexDirection: 'column', height: '100%' }}>
                     <View style={styles.topItem}>
                         <View style={{ width: '65%', gap: 10 }}>
                             <Text style={styles.textTitleItem}>Ví</Text>
                             <View style={{ flexDirection: 'row', columnGap: 20 }}>
-                            
+
                                 <View style={{ flexDirection: 'row' }}>
                                     <Text style={styles.textTitleItem}>Size: </Text>
                                     <View style={{ width: 20, height: 20, backgroundColor: `${'#0000'}`, borderRadius: 50 }}></View>
@@ -40,7 +40,7 @@ const CartScreen = ({ navigation }: PropsCart) => {
                         </Pressable>
                     </View>
                     <View style={styles.bottomItem}>
-                    
+
                         <View style={{ flexDirection: 'row', backgroundColor: 'white', borderRadius: 5, alignItems: 'center', justifyContent: 'space-between', width: 100, height: 30, paddingHorizontal: 2, position: 'absolute', right: 30 }}>
                             <Pressable style={1 > 1 ? styles.btnNumberCountMinus : [styles.btnNumberCountMinus, { backgroundColor: '#E5E5E5' }]}><Icon name='remove-outline' size={25} /></Pressable>
                             <Text style={styles.textNumberCount}>12</Text>
@@ -62,7 +62,7 @@ const CartScreen = ({ navigation }: PropsCart) => {
                 {listData.length > 0 ?
                     <FlatList
                         scrollEnabled={false}
-                        renderItem={(object) => <RenderItem/>}
+                        renderItem={(object) => <RenderItem />}
                         data={listData}
                         keyExtractor={(item: any) => item?.key}
                     /> : <Text style={{ fontSize: 20 }}>Chưa có sản phẩm</Text>}
@@ -78,8 +78,8 @@ const CartScreen = ({ navigation }: PropsCart) => {
                     <View style={{ borderWidth: 1, borderColor: 'red', borderRadius: 5, marginTop: 25 }}>
                         <InputItem
                             style={{ fontSize: 16 }}
-                           
-                            
+
+
                             placeholder={"Nhập mã giảm giá"}
                             extra={
                                 <Pressable style={styles.btnApply}>
@@ -95,15 +95,15 @@ const CartScreen = ({ navigation }: PropsCart) => {
                         </View>
                         <View style={styles.headerTotalPrice}>
                             <Text style={styles.textHeaderTotalLeft}>Phí giao hàng</Text>
-                            
+
                         </View>
                         <View style={styles.headerTotalPrice}>
                             <Text style={styles.textHeaderTotalLeft}>Giảm giá</Text>
-                          
+
                         </View>
                         <View style={styles.bottomTotalPrice}>
                             <Text style={styles.textBottomTotalLeft}>Tổng giá</Text>
-                           
+
                         </View>
 
                     </View>
@@ -115,7 +115,7 @@ const CartScreen = ({ navigation }: PropsCart) => {
                 </View>
 
             </ScrollView>
-        </SafeAreaView > 
+        </SafeAreaView >
     )
 }
 
