@@ -4,7 +4,7 @@ import Icon from 'react-native-vector-icons/Ionicons'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { BG_COLOR, HEIGHT, PADDING_HORIZONTAL, WIDTH } from '../../utilities/utility';
 import { useNavigation } from '@react-navigation/native'
-import { PropsCart } from '../../Navigation/Props';
+import { PropsCart } from '../../component/Navigation/Props';
 import ButtonBottom from '../../component/Button/Button';
 import { InputItem } from '@ant-design/react-native';
 

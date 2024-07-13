@@ -1,6 +1,6 @@
 
 import { uid } from 'uid';
-import { FadeAccountScreen } from '../component/BottomNavigation/AniScreenBottomTab';
+import { FadeAccountScreen } from '../BottomNavigation/AniScreenBottomTab';
 
 
 export enum RootStackScreenEnumAccount {

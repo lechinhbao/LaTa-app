@@ -1,7 +1,7 @@
 import { uid } from 'uid';
 
 
-import { FadeHomeScreen } from '../component/BottomNavigation/AniScreenBottomTab';
+import { FadeHomeScreen } from '../BottomNavigation/AniScreenBottomTab';
 
 export enum RootStackScreenEnumHome {
     HomeScreen = 'HomeScreen',

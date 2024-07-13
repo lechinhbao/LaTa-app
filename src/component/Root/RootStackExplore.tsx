@@ -1,6 +1,6 @@
 
 import { uid } from 'uid';
-import { FadeExploreScreen } from '../component/BottomNavigation/AniScreenBottomTab';
+import { FadeExploreScreen } from '../BottomNavigation/AniScreenBottomTab';
 
 
 

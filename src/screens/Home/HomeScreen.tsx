@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, TextInput, Image, Pressable, ScrollView, FlatLi
 import React, { useCallback, useEffect, useRef, useState } from 'react'
 import Icon from 'react-native-vector-icons/Ionicons';
 import { NativeStackHeaderProps } from '@react-navigation/native-stack';
-import { RootStackScreenEnumExplore } from '../../Root/RootStackExplore';
+import { RootStackScreenEnumExplore } from '../../component/Root/RootStackExplore';
 import { BG_COLOR, PADDING_HORIZONTAL, PADDING_TOP, WIDTH } from '../../utilities/utility';
 
 

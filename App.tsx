@@ -8,7 +8,7 @@
 import React, { useEffect, useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { DefaultTheme, PaperProvider } from 'react-native-paper';
-import Navigation from './src/Navigation/Navigation';
+import Navigation from './src/component/Navigation/Navigation';
 
 function App(): JSX.Element {
   return (

@@ -1,6 +1,6 @@
 
 import { uid } from 'uid';
-import { FadeOfferScreen } from '../component/BottomNavigation/AniScreenBottomTab';
+import { FadeOfferScreen } from '../BottomNavigation/AniScreenBottomTab';
 
 
 export enum RootStackScreenEnumOffer {

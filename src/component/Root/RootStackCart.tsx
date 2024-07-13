@@ -1,5 +1,5 @@
 import { uid } from 'uid';
-import { FadeCartScreen } from '../component/BottomNavigation/AniScreenBottomTab';
+import { FadeCartScreen } from '../BottomNavigation/AniScreenBottomTab';
 
 
 

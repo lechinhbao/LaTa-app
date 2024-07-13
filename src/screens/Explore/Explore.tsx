@@ -18,7 +18,7 @@ import { RootTabParamList } from '../../component/BottomNavigation/RootTab/RootT
 import { HEIGHT, PADDING_HORIZONTAL, PADDING_TOP, WIDTH } from '../../utilities/utility';
 import { COLORS } from '../../utilities';
 import { NativeStackHeaderProps } from '@react-navigation/native-stack';
-import { RootStackParamListHome, RootStackScreenEnumHome } from '../../Root/RootStackHome';
+import { RootStackParamListHome, RootStackScreenEnumHome } from '../../component/Root/RootStackHome';
 
 
 interface Category {

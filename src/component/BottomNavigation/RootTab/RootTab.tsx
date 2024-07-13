@@ -1,15 +1,15 @@
 import { NavigatorScreenParams } from '@react-navigation/native';
 import { StyleProp, StyleSheet, TextStyle } from 'react-native';
-import HomeNavigation from '../../../Navigation/HomeNavigation';
-import ExploreNavigation from '../../../Navigation/ExploreNavigation';
-import CartNavigation from '../../../Navigation/CartNavigation';
-import OfferNavigation from '../../../Navigation/OfferNavigation';
-import AccountNavigation from '../../../Navigation/AccountNavigation';
-import { RootStackParamListHome } from '../../../Root/RootStackHome';
-import { RootStackParamListExplore } from '../../../Root/RootStackExplore';
-import { RootStackParamListCart } from '../../../Root/RootStackCart';
-import { RootStackParamListOffer } from '../../../Root/RootStackOffer';
-import { RootStackParamListAccount } from '../../../Root/RootStackAccount';
+import HomeNavigation from '../../Navigation/HomeNavigation';
+import ExploreNavigation from '../../Navigation/ExploreNavigation';
+import CartNavigation from '../../Navigation/CartNavigation';
+import OfferNavigation from '../../Navigation/OfferNavigation';
+import AccountNavigation from '../../Navigation/AccountNavigation';
+import { RootStackParamListHome } from '../../Root/RootStackHome';
+import { RootStackParamListExplore } from '../../Root/RootStackExplore';
+import { RootStackParamListCart } from '../../Root/RootStackCart';
+import { RootStackParamListOffer } from '../../Root/RootStackOffer';
+import { RootStackParamListAccount } from '../../Root/RootStackAccount';
 import { COLORS } from '../../../utilities';
 import Icon from 'react-native-vector-icons/Ionicons';
 
