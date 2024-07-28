@@ -704,7 +704,7 @@ const styles = StyleSheet.create({
   },
   productItem: {
     width: 160,
-    height: 250,
+    height: 200,
     paddingHorizontal: 10,
     marginBottom: 20,
     backgroundColor: 'white',
@@ -712,7 +712,7 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   productImage: {
-    width: 130,
+    width: 140,
     height: 120,
     borderRadius: 20,
     padding: 8,
@@ -723,13 +723,13 @@ const styles = StyleSheet.create({
     color: '#223263',
     marginBottom: 8,
     fontWeight: "700",
-    textAlign: 'center'
+    textAlign: 'center',
   },
   productPrice: {
     fontSize: 18,
     fontWeight: '700',
     color: 'black',
-    marginBottom: 8,
+    // marginBottom: 8,
     alignSelf: 'center',
   },
   productOldPrice: {
